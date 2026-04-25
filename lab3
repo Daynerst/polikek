@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация пользователя</title>
+</head>
+<body bgcolor="#f5f5f5">
+
+    <form action="#" method="post" style="width: 70%; margin: 0 auto; border: 2px solid #3498db; padding: 20px; background-color: white;">
+        
+        <h2 align="center" style="color: #2c3e50; font-family: Arial, sans-serif;">
+            Регистрация пользователя
+        </h2>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Имя:
+            </label>
+            <input type="text" name="firstname" maxlength="30" required style="width: 250px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Фамилия:
+            </label>
+            <input type="text" name="lastname" maxlength="30" required style="width: 250px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                День рождения:
+            </label>
+
+            <input type="number" name="day" min="1" max="31" value="1" style="width: 60px; padding: 5px;">
+
+            <select name="month" style="padding: 5px;">
+                <option value="1">Январь</option>
+                <option value="2">Февраль</option>
+                <option value="3">Март</option>
+                <option value="4">Апрель</option>
+                <option value="5">Май</option>
+                <option value="6">Июнь</option>
+                <option value="7">Июль</option>
+                <option value="8">Август</option>
+                <option value="9">Сентябрь</option>
+                <option value="10">Октябрь</option>
+                <option value="11">Ноябрь</option>
+                <option value="12">Декабрь</option>
+            </select>
+            
+            <!-- Год -->
+            <input type="number" name="year" min="1925" max="2025" value="2000" style="width: 80px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Город:
+            </label>
+            <input type="text" name="city" style="width: 250px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Пол:
+            </label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male" style="margin-right: 15px;">Мужской</label>
+            
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Женский</label>
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Почтовый ящик:
+            </label>
+            <input type="email" name="email" style="width: 250px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Пароль:
+            </label>
+            <input type="password" name="password" maxlength="12" required style="width: 250px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Повторите пароль:
+            </label>
+            <input type="password" name="password_repeat" maxlength="12" required style="width: 250px; padding: 5px;">
+        </p>
+
+        <p>
+            <label style="display: inline-block; width: 150px; color: #34495e; font-family: Arial, sans-serif;">
+                Фотография:
+            </label>
+            <input type="file" name="photo" accept=".jpg, .jpeg" style="padding: 5px;">
+            <small style="color: #7f8c8d;">(только .jpg)</small>
+        </p>
+
+        <p>
+            <label style="display: block; color: #34495e; font-family: Arial, sans-serif; margin-bottom: 5px;">
+                Несколько слов о себе:
+            </label>
+            <textarea name="about" rows="5" cols="50" maxlength="250" style="resize: vertical; padding: 5px;"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" name="agreement" id="agreement" checked>
+            <label for="agreement">Я принимаю пользовательское соглашение</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="newsletter" id="newsletter" checked>
+            <label for="newsletter">Я хочу принимать рассылку сообщений</label>
+        </p>
+
+        <p align="center">
+            <button type="submit" style="background-color: #3498db; color: white; padding: 10px 30px; border: none; cursor: pointer; font-size: 16px;">
+                Зарегистрироваться
+            </button>
+            
+            <button type="reset" style="background-color: #95a5a6; color: white; padding: 10px 30px; border: none; cursor: pointer; font-size: 16px; margin-left: 10px;">
+                Очистить
+            </button>
+        </p>
+
+    </form>
+
+</body>
+</html>
