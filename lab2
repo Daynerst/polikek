@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Визитная карточка</title>
+</head>
+<body bgcolor="#f0f8ff">
+
+    <h1 align="center" style="color: #2c3e50; font-family: 'Times New Roman', serif; font-size: 32px;">
+        Зарецкий Данил Юрьевич
+    </h1>
+
+    <h2 align="left" style="color: #2980b9; font-family: Arial, sans-serif; font-size: 24px;">
+        Специальность: Информационные системы и программирование
+    </h2>
+
+    <p align="left" style="color: #34495e; font-family: Verdana, sans-serif; font-size: 18px;">
+        <b>Курс:</b> 2 курс<br>
+        <b>Группа:</b> 1ВЕБ-42<br>
+        <b>Факультет:</b> Информационных технологий
+    </p>
+
+    <h3 align="right" style="color: #e74c3c; font-family: 'Courier New', monospace; font-size: 20px;">
+        Мои интересы:
+    </h3>
+
+    <ul align="right" style="color: #8e44ad; font-family: Georgia, serif; font-size: 16px;">
+        <li>Веб-разработка и дизайн</li>
+        <li>Программирование на Python и JavaScript</li>
+        <li>Игра на гитаре</li>
+        <li>Компьеъютерные игры</li>
+        <li>Спорт: Фехтование</li>
+    </ul>
+
+    <div align="center">
+        <h3 style="color: #27ae60; font-family: Tahoma, sans-serif; font-size: 22px;">
+            Фотогалерея
+        </h3>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800" 
+                 alt="Рабочее место программиста" 
+                 width="50%" 
+                 border="2">
+            <figcaption style="color: #7f8c8d; font-family: Arial, sans-serif; font-size: 14px;">
+                Моё рабочее место
+            </figcaption>
+        </figure>
+
+        <br>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" 
+                 alt="Код на экране" 
+                 width="50%" 
+                 border="2">
+            <figcaption style="color: #7f8c8d; font-family: Arial, sans-serif; font-size: 14px;">
+                Любимое занятие - программирование
+            </figcaption>
+        </figure>
+    </div>
+
+    <p align="center" style="margin-top: 30px;">
+        <a href="grades.html" style="color: #c0392b; font-family: Arial, sans-serif; font-size: 18px; text-decoration: none;">
+            <b>→ Моя успеваемость ←</b>
+        </a>
+    </p>
+
+</body>
+</html>
