@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CMS и веб-разработка</title>
+    <link rel="stylesheet" href="lab41sem.css">
+</head>
+<body>
+    <h1>Что такое CMS</h1>  
+    <p>
+        <span class="bold">CMS</span> - «система управления контентом» (<span class="bold italic">движок</span>) -- написанная PHP-программистами основа для сайта, с помощью которой вы сможете управлять сайтом (добавлять контент, менять пункты меню и т.п.) не зная HTML и CSS.
+    </p> 
+    <p>
+        Однако, для того чтобы сделать сайт с помощью <span class="bold">CMS</span> <span class="italic underline">потребуются услуги</span> и программиста, и дизайнера, и верстальщика. И капиталовложения.
+    </p>
+    <h2>Какие бывают cms</h2>   
+    <p>Бывают различные системы управления контентом: для интернет-магазинов, для блогов, для форумов и т.д.</p>
+    <h2>Примеры cms</h2>   
+    <p>
+        <span class="italic">Примеры популярных CMS</span>: Joomla, WordPress (для блогов), PhpBB (для форумов).
+    </p>    
+    <p>
+        <span class="bold">CMS-ки</span> бывают <span class="italic">платные</span> и <span class="italic">бесплатные</span>.
+    </p>
+    <h1>Что нужно знать, чтобы делать сайты</h1>   
+    <ol>
+        <li><span class="bold">HTML</span></li>
+        <li><span class="bold italic">CSS</span></li>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Flash</li>
+        <li>SEO</li>
+    </ol>
+    <h2>PHP и JavaScript</h2>   
+    <p>
+        Языки программирования <span class="bold">PHP</span> и <span class="bold">JavaScript</span> позволяют сделать сайт динамичным, то есть реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер
+    </p>
+    <h2>Виды скриптов</h2>
+    <p>Для этого пишутся скрипты (англ. <span class="bold italic">script</span> - «сценарий») - программы, позволяющие реагировать на действия пользователя. Скрипты бывают двух видов:</p>
+    <ul>
+        <li>
+            <span class="italic">те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже в готовом виде. Это скрипты, написанные на языке <span class="bold">PHP</span>. На нем пишутся <span class="bold">CMS-ки</span> -- системы управления контентом.</span>
+        </li>
+        <li>
+            <span class="italic">те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке <span class="bold">JavaScript</span>. Они чаще всего используются для, того чтобы сделать страницу более удобной и красивой.</span>
+        </li>
+    </ul>
+</body>
+</html>
+
+CSS
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    margin: 40px;
+    background-color: white;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ol li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+ul li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    text-align: justify;
+}
+p + p {
+    margin-top: 10px;
+}
+span.bold {
+    font-weight: bold;
+}
+span.italic {
+    font-style: italic;
+}
